@@ -28,14 +28,22 @@ Testing the right scenario would have prevented selecting involuntarily X-ray mo
 A local bug reported by an Apache forum member comes from the HasherCollection. Indeed, the HasherCollection should implement the Hasher interface, which was not the case. The developers were not able to use the library correctly. Consequently, the HasherCollection code and all its corresponding tests were deleted on the repository.
 
 ### 3 - 
-The concrete experiments they perform are
+The concrete experiments they perform are :
+
 Build a hypothesis around steady state behavior
+
 Vary real-word events
+
 Run experiments to run continuously
- The requirements for these experiments are 
+
+ The requirements for these experiments are :
+ 
 Hypotheses
+
 Independent variables
+
 Dependent variables
+
 Context
 
 Is Netflix the only company performing these experiments? 
