@@ -30,16 +30,16 @@ A local bug reported by an Apache forum member comes from the HasherCollection. 
 #### 3 - 
 The concrete experiments they perform are :
 
-Build a hypothesis around steady state behavior
-Vary real-word events
-Run experiments to run continuously
+ - Build a hypothesis around steady state behavior
+ - Vary real-word events
+ - Run experiments to run continuously
 
  The requirements for these experiments are :
  
-Hypotheses
-Independent variables
-Dependent variables
-Context
+ - Hypotheses
+ - Independent variables
+ - Dependent variables
+ - Context
 
 Is Netflix the only company performing these experiments? 
 
@@ -50,10 +50,10 @@ We can not say if Netflix is the only company performing these experiments becau
 #### 4 - Web Assembly
 
 Web Assembly is a portable format for executable programs. The goal is to enable high-performance applications on web pages. It uses formal specification and it has some advantages :
-It does not contain ambiguity. The code is clear and design with several patterns which increase understanding
-It allows a good understanding of every problem 
-Encourages for a global view of the system and is less technical as the formal specification is clear and helps the developers to code. So they can focus more on the “what…for” and “why” than on the “how”
-It clearly defines correctness for a program. The specification defines what is correct and what is not. A correct program should not have any bug, according to the specification.
+ - It does not contain ambiguity. The code is clear and design with several patterns which increase understanding
+ - It allows a good understanding of every problem 
+ - Encourages for a global view of the system and is less technical as the formal specification is clear and helps the developers to code. So they can focus more on the “what…for” and “why” than on the “how”
+ - It clearly defines correctness for a program. The specification defines what is correct and what is not. A correct program should not have any bug, according to the specification.
 
 However, a webassembly program should also be tested. As we say, the only code without bugs is an empty code. Even if the language prevents most of the common bugs, there is still a risk. The main risks remain in the code of the web assembly language. A bug in the source code would be catastrophic as everyone would also have this bug if they use web assembly.
 
