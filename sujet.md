@@ -12,7 +12,7 @@
 
 ## Answers
 
-1 - 1985-1987 – Therac-25 medical accelerator.
+### 1 - 1985-1987 – Therac-25 medical accelerator.
 
 A radiation therapy device malfunctions and delivers lethal radiation doses at several medical facilities. Based upon a previous design, the Therac-25 was an "improved" therapy system that could deliver two different kinds of radiation: either a low-power electron beam (beta particles) or X-rays.
 
@@ -23,11 +23,12 @@ What engineers didn't know was that both the 20 and the 25 were built upon an op
 Testing the right scenario would have prevented selecting involuntarily X-ray mode. 
 
 
-2 - Apache bug resolution: HasherCollection
+### 2 - Apache bug resolution: HasherCollection
 
 A local bug reported by an Apache forum member comes from the HasherCollection. Indeed, the HasherCollection should implement the Hasher interface, which was not the case. The developers were not able to use the library correctly. Consequently, the HasherCollection code and all its corresponding tests were deleted on the repository.
 
-3 - The concrete experiments they perform are
+### 3 - 
+The concrete experiments they perform are
 Build a hypothesis around steady state behavior
 Vary real-word events
 Run experiments to run continuously
@@ -43,7 +44,7 @@ We can not say if Netflix is the only company performing these experiments becau
 
 
 
-4 - Web Assembly
+### 4 - Web Assembly
 
 Web Assembly is a portable format for executable programs. The goal is to enable high-performance applications on web pages. It uses formal specification and it has some advantages :
 It does not contain ambiguity. The code is clear and design with several patterns which increase understanding
@@ -53,4 +54,4 @@ It clearly defines correctness for a program. The specification defines what is 
 
 However, a webassembly program should also be tested. As we say, the only code without bugs is an empty code. Even if the language prevents most of the common bugs, there is still a risk. The main risks remain in the code of the web assembly language. A bug in the source code would be catastrophic as everyone would also have this bug if they use web assembly.
 
-5 - 
+### 5 - 
