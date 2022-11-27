@@ -60,15 +60,15 @@ However, a webassembly program should also be tested. As we say, the only code w
 #### 5 - Mechanising and Verifying the WebAssembly Specification
 How did the author verify the specification?
 
-Our executable interpreter, suitably augmented with the ref-
+```Our executable interpreter, suitably augmented with the ref-
 erence parser and linker, successfully passes all core language
 conformance tests available in the WebAssembly reposi-
 tory. Due to the
 soundness result we have with respect to our mechanised
-specification, these tests also serve to validate our model.
+specification, these tests also serve to validate our model.```
 
 Does this new specification removes the need for testing?
-
+No,
 Our work in proving WebAssembly’s type soundness
 properties identified several important issues with the official
 specification which we could not have discovered without
