@@ -66,7 +66,7 @@ specification, these tests also serve to validate our model.```
 
 Does this new specification removes the need for testing?
 No,
-Our work in proving WebAssembly’s type soundness
+```Our work in proving WebAssembly’s type soundness
 properties identified several important issues with the official
 specification which we could not have discovered without
 embarking on such a “deep" proof of a language property,
@@ -74,4 +74,4 @@ and might not have been so immediately actionable by the
 official specification authors had we not maintained eyeball
 closeness. Furthermore, we can now guarantee, through our
 proofs, that the type system is sound in a way that would
-not be possible for a “light-weight" specification
+not be possible for a “light-weight" specification```
