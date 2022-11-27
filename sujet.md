@@ -58,3 +58,11 @@ Web Assembly is a portable format for executable programs. The goal is to enable
 However, a webassembly program should also be tested. As we say, the only code without bugs is an empty code. Even if the language prevents most of the common bugs, there is still a risk. The main risks remain in the code of the web assembly language. A bug in the source code would be catastrophic as everyone would also have this bug if they use web assembly.
 
 #### 5 - 
+How did the author verify the specification?
+
+Our executable interpreter, suitably augmented with the ref-
+erence parser and linker, successfully passes all core language
+conformance tests available in the WebAssembly reposi-
+tory. Due to the
+soundness result we have with respect to our mechanised
+specification, these tests also serve to validate our model.
