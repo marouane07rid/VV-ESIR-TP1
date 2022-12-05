@@ -58,6 +58,18 @@ Web Assembly is a portable format for executable programs. The goal is to enable
 However, a webassembly program should also be tested. As we say, the only code without bugs is an empty code. Even if the language prevents most of the common bugs, there is still a risk. The main risks remain in the code of the web assembly language. A bug in the source code would be catastrophic as everyone would also have this bug if they use web assembly.
 
 #### 5 - Mechanising and Verifying the WebAssembly Specification
+what are the main advantages of the mechanized specification?
+
+```
+The draft specification explains all semantic behaviour both in English prose, and with an accompanying natural deduction style formal rule.
+
+This paper, and the official specification, both state that the WebAssembly type system enjoys several soundness properties.
+
+We have also defined a separate verified executable interpreter and type checker. Like many verified language implementations, these artefacts require integration with an external parser and linker to run as standalone programs, which introduces an untrusted interface. 
+```
+Did it help improving the original formal specification of the language?
+
+
 How did the author verify the specification?
 
 ``` Our executable interpreter, suitably augmented with the reference parser and linker, successfully passes all core language
@@ -66,6 +78,7 @@ specification, these tests also serve to validate our model.
 ```
 
 Does this new specification removes the need for testing?
+Yes
 No,
 ```Our work in proving WebAssembly’s type soundness
 properties identified several important issues with the official
